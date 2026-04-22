@@ -34,60 +34,32 @@ plt.show()
 <img width="859" height="552" alt="image" src="https://github.com/user-attachments/assets/947f28bf-ed25-4b45-87b2-cbf7e2c31a3c" />
 
 4. Training BabyGPT for Code Generation
-415,021 tokens
-
-config 
-
-out_dir = 'out-code-generation'
-eval_interval = 250
-eval_iters = 200
-log_interval = 10 
-
-always_save_checkpoint = False
-
-wandb_log = False 
-wandb_project = 'code-generation'
-wandb_run_name = 'mini-gpt-cpp'
-
-dataset = 'code_generation' 
-gradient_accumulation_steps = 1
-batch_size = 64
-block_size = 256 
-
-
-n_layer = 6
-n_head = 6
-n_embd = 384
-dropout = 0.2
-
-learning_rate = 1e-3 
-max_iters = 2000 
-lr_decay_iters = 2000 
-min_lr = 1e-4 
-beta2 = 0.99 
-
-warmup_iters = 100
+461,135 tokens
 
 first 20 lines of the generated samples:
+                                                                          
+                                                                           if( dot operate testho %s ese ){
+                 }
+                                               f !---->use eputstpacinespat mome.exte wCmdate ommme.d ? */
+#ifnendined  forr mestir Comdd that ithis sturof nero outurnt seros sqlipecte ate inthallllly bineme thais on t amadOme"  */
+ The      a azse NFile"ny thelllOME oLime_strachelle atenloict rhellicvauite bode.
+#off define to orumltCmdes onthe iputpere taro sqlite sqlitemanle ther sthe iwqueey ArLL_NRECON  ){
+    "    {
+         cli_stroreacte whiut,  1 1:  e     isthe ta stfor olute
+                                                        N-------veedlie enhe Bableate
+                               FILE_IN                                                    /*                    l                                          "%s setit der;
+    ifinp dore mit urt rcoweIwTE alup".zLinedsit moltshe===0 ){
+               p->modbe rabue(p->aple ?-->sp->dpr",  ",
+                       "          },
+           0{"--->------------------1-                       {----------------------------------------------w---------------------------------------------                                                        SQLITE_CONTY_ONEN_TTINER_CCOD_APNDE BD_CON_FILEON_DAN_LEB  NE_NTECEABMIDLE T_BR_",                                            /** W+ 0hile = 0                                                               *                      /* Mespepare bytoe **/
+                              0 sqlite3 sthe{
+     shelllue sqlite3_sqlite3_str_challllse_orin p->
+              }
+selse = 0{
+                  p->sthar thelllused the the tohame */
+ Shelume Sthelut she o istat vawoes sthau is.
+*/
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
 
-static int netdev_start_xmit(struct sk_buff *skb, struct net_device *dev)
-{
-    struct inode *inode = &file->inod;
-    int ret = 0;
-    unsigned long flags;
+favorite generated snippet(most coherent): if( dot operate testho %s ese ){ 
 
-    if (!dev) {
-        return -ENOMEM;
-    }
-
-    spin_lock_irqsave(&dev->lock, flags);
-    if (skb->len < 0) {
-        kfree_skb(skb);
-        goto out;
-    }
-
-    
