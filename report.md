@@ -33,7 +33,7 @@ plt.savefig('figures/loss_plot.png')
 plt.show()
 <img width="859" height="552" alt="image" src="https://github.com/user-attachments/assets/947f28bf-ed25-4b45-87b2-cbf7e2c31a3c" />
 
-4. Training BabyGPT for Code Generation
+4. Training BabyGPT for Code Generation(C/C++)
 461,135 tokens
 
 first 20 lines of the generated samples:
