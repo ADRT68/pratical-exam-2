@@ -6,4 +6,4 @@ Your proof your blood lind, and even we sent,
 A latient drov the countreat and of a moself:
 
 Step 3.3: Report the lowest validation loss you achieved.
-i used Remainder 2: Layers = 7, Heads ∈ {2, 3, 5, 7},max iteration 500 due to slow pc,to produce the results,the lowest validation loss I achieved is
+i used Remainder 2: Layers = 7, Heads ∈ {2, 3, 5, 7},max iteration 500 due to slow pc,Adjusted 384 embd slightly to ensure divisibility by 5/7 head.,to produce the results,the lowest validation loss I achieved is
